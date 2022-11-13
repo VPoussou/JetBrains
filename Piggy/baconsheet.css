@@ -1,0 +1,61 @@
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+
+}
+
+h1 {
+    text-align: center;
+    font-size:3rem;
+    background-image: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,0,0,1) 100%);
+    background-clip: text;
+    color:transparent;
+}
+
+nav {
+    text-align: end;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    color: #fdb6c3;
+    margin-inline: 1rem;
+    padding: 5px;
+    border: solid 1px #fdb6c3;
+    border-radius: 5px;
+}
+
+body {
+    background: linear-gradient(to right, #659999, #f4791f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#pig {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-block: 1rem;
+}
+
+#bacon {
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    margin-bottom: 3rem;
+}
